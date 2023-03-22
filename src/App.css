@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(100, 171, 252);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1 {
+  display: flex;
+  font-size: larger;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+  color: rgb(22, 18, 18);
+}
+
+img {
+  display: flex;
+  margin-top: 20px;
+  width: 50%;
+  border-width: 5px;
+  border-color: white;
+  border-style: solid;
+}
+
+article {
+  width: 75%;
+  display: block;
+  text-align: center;
+  justify-content: center;
+}
+
+.article1 {
+  order: 1;
+}
+
+.article2 {
+  order: 2;
+}
+
+.article3 {
+  order: 3;
+}
